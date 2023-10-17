@@ -4,8 +4,8 @@
 		{
 			"label": "wasm-pack build",
 			"type": "shell",
-			"command": "wasm-pack build --target web",
-			"problemMatcher": [],
+			"command": "wasm-pack build",
+			"problemMatcher": ["$rustc"],
 			"group": "build",
 			"presentation": {
 				"echo": true,
