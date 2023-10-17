@@ -20,6 +20,6 @@ wasm-pack build --target web
 and include in Cashier by adding the line
 
 ```json
-    "ledger-rs-lib": "file:D:\\src\\ledger-rs-lib\\pkg",
+    "cashier-wasm": "file:D:\\src\\cashier-wasm\\pkg",
 ```
 to package.json.
